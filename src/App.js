@@ -5,13 +5,14 @@ import UserList from './components/user-list/user-list.component';
 
 import './App.scss';
 
+
 function App() {
   return (
     <div className='App'>
       <UserList dataSource='https://jsonplaceholder.typicode.com/users' />
       <UserProfile
-        name='Yihua'
-        email='yihuazhang@gmail.com'
+        name='Morgan'
+        email='morgan_email@gmail.com'
         dataSource='https://jsonplaceholder.typicode.com/posts'
       />
     </div>
